@@ -1,4 +1,4 @@
-# CorelDRAW to Inkcut Macro (CD2Inkcut)
+# CorelDRAW to Inkcut Macro (ex2Inkcut)
 
 This VBA macro automates the process of sending selected shapes from CorelDRAW directly to Inkcut for vinyl cutting.  I created this because the paid software I was using for this purpose stopped working, and I believe paying for such a simple file transfer is unnecessary.
 
