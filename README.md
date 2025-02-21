@@ -13,12 +13,12 @@ This VBA macro automates the process of sending selected shapes from CorelDRAW d
 1. Open the VBA editor in CorelDRAW (Alt + F11).
 2. Import the `ex2Inkcut.cls` file (File > Import File...).
 3. Select the shapes you want to cut in CorelDRAW.
-4. Run the `Export_to_Inkcut` macro (within the `ex2Inkcut` class). You may need to run this from the VBA editor or assign it to a button/shortcut within CorelDRAW.
+4. Run the `ex2Inkcut` macro. You may need to run this from the VBA editor or assign it to a button/shortcut within CorelDRAW.
 
    **To add a button to a toolbar for easy access:**
    * Go to **Tools > Options > Customize > Commands**.
    * Navigate to the "Macros" category.
-   * Select the `Export_to_Inkcut` macro.
+   * Select the `ex2Inkcut` macro.
    * Drag and drop it onto your preferred toolbar to create a custom button.
 
 ## Description
