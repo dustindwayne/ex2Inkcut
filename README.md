@@ -28,6 +28,8 @@ This macro exports the selected shapes as an SVG file to your temporary director
 ## Notes
 
 * Make sure Inkcut is accessible via your system's PATH environment variable.  If it's not, you'll need to adjust the `inkscapeCmd` variable in the code to include the full path to the Inkcut executable.
+* The macro applies a thin red outline **after** exporting so the outline is visible for tracking in CorelDRAW but does not get sent to Inkcut as a cut path.
+* The document unit is temporarily set to inches for export and restored immediately afterward to avoid changing your working units.
 * Error handling is included for export failures.
 * This macro assumes your vinyl cutter is configured correctly within Inkcut.
 
